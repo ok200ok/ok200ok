@@ -12,7 +12,7 @@
 |経験職種|`TypeScript`言語での中小規模Web開発|
 |領域|フロントエンドFE, バックエンドBE, クラウドインフラ|
 |実務年数|1年8ヶ月|
-|主要技術|[![icons](https://skillicons.dev/icons?i=html,tailwind,ts,vite,react,nextjs,nodejs,prisma,java,spring,postgres,supabase,cloudflare,aws,docker,figma&perline=8)](https://skillicons.dev)|
+|主要技術|[![icons](https://skillicons.dev/icons?i=html,tailwind,ts,vite,react,nextjs,nodejs,nestjs,prisma,java,spring,sqlite,postgres,supabase,cloudflare,aws,docker,github,md,figma&perline=10)](https://skillicons.dev)|
 |プロダクト例|- 自社Webサイト用RAGチャットボット開発<br>- タスク管理＆通知社内システム開発<br>- 建設業者CRM兼案件仲介Webアプリ受託開発|
 |職務経歴書URL|[github.com/ok200ok](https://github.com/ok200ok)|
 |16タイプ|INTP論理学者|
