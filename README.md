@@ -105,9 +105,9 @@
 
 `Node.js22(TS)`, `Hono`, `NestJS`, `DrizzleORM`, `PrismaORM`, `BetterAuth`, `Clerk`
 
-`Java21`, `SpringBoot4(Web, MyBatisORM, Security, Thymeleaf)`, `JUnit5`
+`Java21`, `Spring Framework(Web/JPA/MyBatisORM/Security/Validation/Thymeleaf)`, `JUnit5`, `Mockito`
 
-`SQL`, `SQLite`, `PostgreSQL`, `NeonDB`, `Supabase ORM/DB/Auth/Storage`, `SwaggerUI`
+`Docker`, `Testcontainers`, `SQL`, `SQLite`, `PostgreSQL`, `NeonDB`, `Supabase ORM/DB/Auth/Storage`, `OpenAPI/SwaggerUI`
 
 ### PaaS / AWS
 
@@ -117,11 +117,11 @@
 
 ### その他 / DevOps
 
-`Zod4`, `ESLint`, `Prettier`, `Biome`, `Pnpm`, `Husky`, `Github Actions`, `Docker`, `Turborepo`, `GraphQL(Apollo, Codegen)`
+`Zod4`, `ESLint`, `Prettier`, `Biome`, `Pnpm`, `Husky`, `Github Actions/Projects/Pages`, `Turborepo`, `GraphQL(Apollo/Codegen)`
 
 ### ツール（MacOS）
 
-`Zsh`, `Mise`, `Ghostty`, `Zed`, `Cursor`, `VSCode`, `Eclipse`, `Github`, `Notion`, `Slack`, `MicroCMS`, `Figma`, `Raycast`
+`Zsh`, `Mise`, `Git`, `Ghostty`, `OpenCode`, `Github Copilot`, `Zed`, `Cursor`, `VSCode`, `Eclipse`, `Notion`, `Slack`, `MicroCMS`, `Figma`, `Raycast`
 
 </details>
 
