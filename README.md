@@ -12,7 +12,7 @@
 |経験職種|`TypeScript`言語での中小規模Web開発|
 |領域|フロントエンドFE, バックエンドBE, クラウドインフラ|
 |実務年数|1年8ヶ月|
-|主要技術|[![icons](https://skillicons.dev/icons?i=html,tailwind,ts,vite,react,nextjs,nodejs,prisma,java,spring,postgres,supabase,cloudflare,aws,docker,figma&perline=8)](https://skillicons.dev)|
+|主要技術|[![icons](https://skillicons.dev/icons?i=html,tailwind,ts,vite,react,nextjs,nodejs,nestjs,prisma,java,spring,sqlite,postgres,supabase,cloudflare,aws,docker,github,md,figma&perline=10)](https://skillicons.dev)|
 |プロダクト例|- 自社Webサイト用RAGチャットボット開発<br>- タスク管理＆通知社内システム開発<br>- 建設業者CRM兼案件仲介Webアプリ受託開発|
 |職務経歴書URL|[github.com/ok200ok](https://github.com/ok200ok)|
 |16タイプ|INTP論理学者|
@@ -105,9 +105,9 @@
 
 `Node.js22(TS)`, `Hono`, `NestJS`, `DrizzleORM`, `PrismaORM`, `BetterAuth`, `Clerk`
 
-`Java21`, `SpringBoot4(Web, MyBatisORM, Security, Thymeleaf)`, `JUnit5`
+`Java21`, `Spring Framework(Web/JPA/MyBatisORM/Security/Validation/Thymeleaf)`, `JUnit5`, `Mockito`
 
-`SQL`, `SQLite`, `PostgreSQL`, `NeonDB`, `Supabase ORM/DB/Auth/Storage`, `SwaggerUI`
+`Docker`, `Testcontainers`, `SQL`, `SQLite`, `PostgreSQL`, `NeonDB`, `Supabase ORM/DB/Auth/Storage`, `OpenAPI/SwaggerUI`
 
 ### PaaS / AWS
 
@@ -117,11 +117,11 @@
 
 ### その他 / DevOps
 
-`Zod4`, `ESLint`, `Prettier`, `Biome`, `Pnpm`, `Husky`, `Github Actions`, `Docker`, `Turborepo`, `GraphQL(Apollo, Codegen)`
+`Zod4`, `ESLint`, `Prettier`, `Biome`, `Pnpm`, `Husky`, `Github Actions/Projects/Pages`, `Turborepo`, `GraphQL(Apollo/Codegen)`
 
 ### ツール（MacOS）
 
-`Zsh`, `Mise`, `Ghostty`, `Zed`, `Cursor`, `VSCode`, `Eclipse`, `Github`, `Notion`, `Slack`, `MicroCMS`, `Figma`, `Raycast`
+`Zsh`, `Mise`, `Git`, `Ghostty`, `OpenCode`, `Github Copilot`, `Zed`, `Cursor`, `VSCode`, `Eclipse`, `Notion`, `Slack`, `MicroCMS`, `Figma`, `Raycast`
 
 </details>
 
@@ -515,8 +515,9 @@
 
 |リポジトリ名・使用技術|概要・機能|注力・備考|
 |---|---|---|
-|[full-tanstack-starter](https://github.com/ok200ok/full-tanstack-starter) <br><br>`TypeScript`, `React19`, `Vite`, `TanStack Start/Router/Query/Form`, `TailwindCSS`, `Shadcn/ui`, `Zod`, `DrizzleORM`, `BetterAuth`, `Docker`, `NeonDB`, `Netlify`, `GithubActions` etc.|脱Next.jsの集大成として作成した自分用Webアプリテンプレです。 <br><br>主な機能：<br>- 初期RDBスキーマとORM設定<br>- OAuth認証とメアドパスワード認証<br>- アプリ本体とDBの即デプロイ設定<br>- 自動マイグレーションとホスト先PaaS自動ビルドのCD（ステージングと本番の2環境）<br>- フルレスポンシブUI<br>- ダークモード<br>- 404と例外キャッチ<br>- アーキテクチャや実装方針を定義したドキュメントなど|**使用技術の学習と実装、アーキテクチャや実装方針の熟考と明文化に半年かけて挑戦しました**。<br>1. 常にDBスキーマを唯一の情報源（Single Source of Truth）とし、エンティティ関連の多重定義と分散を防ぐ[SSOT戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/drizzle-zod-ssot.md)。具体的にはRDBスキーマからZodスキーマとTS型を自動生成して使いまわすもの<br>2. 親コンポーネントのUIレンダリングをブロックしない非同期データフェッチとキャッシュ設計、ディレクトリ設計、UI状態管理ソースとしてのクエリパラメータ活用などを定義した[`TanStack`運用戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/tanstack-router.md)<br>3. `本番`, `開発統合`, `各作業`の3層ブランチ構造に連動させた各環境自動ビルド[CD戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/gitflow-hosting-cd.md)<br>4. デザインシステム、アクセシビリティなどの[UI構築戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/ui.md)<br><br>将来的なLLMの性能向上によるこれら文書の陳腐化リスクを承知の上で、**学習アウトプットとコーディングAI制御の練習を目的**として作成しました
-|[discord-clone](https://github.com/ok200ok/discord-clone)（停止中） <br><br>`TypeScript`, `React18`, `Next.js13`, `TailwindCSS`, `Shadcn/ui`, `Motion`, `Three.js`, `Zustand`, `ReactHookForm`, `Zod`, `PrismaORM`, `Clerk`, `Socket.io`, `Livekit`, `Uploadthing`, `Docker`, `Render` etc.|未経験転職時のポートフォリオとして作成した最初のWebアプリです。<br><br>主な機能：<br>- WebSocket通信によるリアルタイムチャット（グループとDM）<br>- 画像とPDFの送信<br>- ビデオ通話<br>- コミュニティと会話チャンネルの作成・編集・削除<br>- メンバー招待・追放<br>- OAuth認証とメアドパスワード認証<br>- フルレスポンシブUI<br>- ダークモード<br>- フォーム入力検証<br>- ランディングページなど|アプリ機能の充実はもちろん、DevOpsや細やかな開発記録など**保守性やチーム開発も意識した実践的かつ実直な開発を当時の限界まで挑戦しました**。<br>1. アプリ本体、DB、開発環境をDockerコンテナ化して再現性向上<br>2. ホスト先プラットフォームの設定をIaC化して保守性向上<br>3. 自動でDBマイグレーション、本番Dockerイメージビルド、コンテナレジストリにプッシュまで一貫するCDパイプライン<br>4. `Github Projects`上でタスクごとにバックログやIssueの作成、PR作成、確認してマージなど一人擬似アジャイル？で練習<br><br>余談ですが最初から全ての記述を英語にしていたことが功を奏し、海外の同じ駆け出しエンジニア数名からとても感謝されたのは非常に嬉しい出来事でした|
+|[tdd-openapi-spring](https://github.com/ok200ok/tdd-openapi-spring) <br><br>`Mise`, `Java21`, `Gradle`, `Spring Framework(Web/DataJPA/Validation/Security etc)`, `PostgreSQL`, `Docker Compose`, `SwaggerUI`, `Javadoc`, `JUnit5`, `Mockito`, `Testcontainers`, `Github Actions/Pages`, `OpenCode`, `Github Copilot` etc.|`Spring Framework`を用いた基礎的なバックエンドAPI開発を、**妥協せず丁寧に実践する**ための課外プロジェクトです。 <br><br>主な学習成果や機能：<br>- [テスト駆動開発](https://github.com/ok200ok/tdd-openapi-spring#%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E9%80%B2%E3%82%81%E6%96%B9)（仕様→ケース策定→RED→GREEN）<br>- 分離環境での単体・結合テスト（[全110件](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/test-case-catalog.md)）<br>- AI駆動開発（[エージェント制御仕様](https://github.com/ok200ok/tdd-openapi-spring/blob/main/AGENTS.md)、解説的な対話）<br>- レイヤードアーキテクチャ<br>- 基本的な[REST API設計](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/api-design.md)<br>- コードファーストOpenAPI（`SwaggerUI`によるAPIサイトの自動生成）<br>- [データモモデリング](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/data-modeling.md)（テーブル設計、JPA仕様のマッピングなど）<br>- パスワード認証（JWT）と[認可設計](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/authentication-design.md)<br>- DevOps（テスト実行CI、[`Javadoc`デプロイ](https://ok200ok.github.io/tdd-openapi-spring/)CD、`Mise`による[開発環境セットアップ](https://github.com/ok200ok/tdd-openapi-spring#-%E8%B5%B7%E5%8B%95%E6%96%B9%E6%B3%95)、`main`ブランチ保護、）|例のごとく初めての言語・FW・ライブラリ・ツールでも挑戦的に採用し、かつ初めてテスト駆動開発も実践してみました。<br>特に自動テストに関する用語・関連ライブラリ・運用方法など、言語を超える基本的なソフトウェア開発知見が底上げできたたように感じます。<br><br>全体的に学習コストが常に高く大変だった分、得られた経験値もかなり大きく、今後プライベートで取り組むべき技術分野もよりクリアになりました。
+|[full-tanstack-starter](https://github.com/ok200ok/full-tanstack-starter) <br><br>`TypeScript`, `React19`, `Vite`, `TanStack Start/Router/Query/Form`, `TailwindCSS`, `Shadcn/ui`, `Zod`, `DrizzleORM`, `BetterAuth`, `Docker`, `NeonDB`, `Netlify`, `GithubActions` etc.|脱Next.jsの集大成として作成した自分用Webアプリテンプレです <br><br>主な機能：<br>- 初期RDBスキーマとORM設定<br>- OAuth認証とメアドパスワード認証<br>- アプリ本体とDBの即デプロイ設定<br>- 自動マイグレーションとホスト先PaaS自動ビルドのCD（ステージングと本番の2環境）<br>- フルレスポンシブUI<br>- ダークモード<br>- 404と例外キャッチ<br>- アーキテクチャや実装方針を詳細に定義した各種ドキュメントなど|**使用技術の学習と実装、アーキテクチャや実装方針の熟考と明文化に半年かけて挑戦しました**。<br>1. 常にDBスキーマを唯一の情報源（Single Source of Truth）とし、エンティティ関連の多重定義と分散を防ぐ[SSOT戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/drizzle-zod-ssot.md)。具体的にはRDBスキーマからZodスキーマとTS型を自動生成して使いまわすもの<br>2. 親コンポーネントのUIレンダリングをブロックしない非同期データフェッチとキャッシュ設計、ディレクトリ設計、UI状態管理ソースとしてのクエリパラメータ活用などを定義した[`TanStack`運用戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/tanstack-router.md)<br>3. `本番`, `開発統合`, `各作業`の3層ブランチ構造に連動させた各環境自動ビルド[CD戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/gitflow-hosting-cd.md)<br>4. デザインシステム、アクセシビリティなどの[UI構築戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/ui.md)<br><br>将来的なLLMの性能向上によるこれら文書の陳腐化リスクを承知の上で、**学習アウトプットとコーディングAI制御の練習を目的**として作成しました
+|[discord-clone](https://github.com/ok200ok/discord-clone)（停止中） <br><br>`TypeScript`, `React18`, `Next.js13`, `TailwindCSS`, `Shadcn/ui`, `Motion`, `Three.js`, `Zustand`, `ReactHookForm`, `Zod`, `PrismaORM`, `Clerk`, `Socket.io`, `Livekit`, `Uploadthing`, `Docker`, `Render` etc.|未経験転職時のポートフォリオとして作成した最初のWebアプリです<br><br>主な機能：<br>- WebSocket通信によるリアルタイムチャット（グループとDM）<br>- 画像とPDFの送信<br>- ビデオ通話<br>- コミュニティと会話チャンネルの作成・編集・削除<br>- メンバー招待・追放<br>- OAuth認証とメアドパスワード認証<br>- フルレスポンシブUI<br>- ダークモード<br>- フォーム入力検証<br>- ランディングページなど|アプリ機能の充実はもちろん、DevOpsや細やかな開発記録など**保守性やチーム開発も意識した実践的かつ実直な開発を当時の限界まで挑戦しました**。<br>1. アプリ本体、DB、開発環境をDockerコンテナ化して再現性向上<br>2. ホスト先プラットフォームの設定をIaC化して保守性向上<br>3. 自動でDBマイグレーション、本番Dockerイメージビルド、コンテナレジストリにプッシュまで一貫するCDパイプライン<br>4. `Github Projects`上でタスクごとにバックログやIssueの作成、PR作成、確認してマージなど一人擬似アジャイル？で練習<br><br>余談ですが最初から全ての記述を英語にしていたことが功を奏し、海外の同じ駆け出しエンジニア数名からとても感謝されたのは非常に嬉しい出来事でした|
 |[next13-nestjs-graphql](https://github.com/ok200ok/next13-nest-graphql) <br><br>`TypeScript`, `React18`, `Next.js`, `NestJS`, `PrismaORM`, `GraphQL`, `Apollo`, `Turborepo`, `Docker`, etc.|左記FEとBEの主要フレームワーク、それらのモノレポ構成、`GraphQL API`とその関連ライブラリなどを学習した際のプロジェクト|言わずもがな`GraphQL`やモノレポは、`TypeScript`単一言語による中小規模Webアプリ開発には過剰な技術。未経験エンジニアが2022年当時の流行技術に強く興味を持った結果、半年以上費やしてしまい大きく回り道をしました。<br><br>**「未知の技術を独学で学ぶ際は熱中しすぎるリスクを伴う」** という<span id="独学のリスク">教訓</span>を得たため、のちに「職業訓練校でJavaを学んでみる」という選択につながりました|
 
 ### 技術記事の執筆
