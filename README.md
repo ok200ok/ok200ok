@@ -1,6 +1,6 @@
 # 職務経歴書
 
-最終更新: 2026/09/27
+最終更新: 2026/10/21
 
 ## プロフィール
 
@@ -12,8 +12,8 @@
 |経験職種|`TypeScript`言語での中小規模Web開発|
 |領域|フロントエンドFE, バックエンドBE, クラウドインフラ|
 |実務年数|1年8ヶ月|
-|主要技術|[![icons](https://skillicons.dev/icons?i=html,tailwind,ts,vite,react,nextjs,nodejs,nestjs,prisma,java,spring,sqlite,postgres,supabase,cloudflare,aws,docker,github,md,figma&perline=10)](https://skillicons.dev)|
-|プロダクト例|- 自社Webサイト用RAGチャットボット開発<br>- タスク管理＆通知社内システム開発<br>- 建設業者CRM兼案件仲介Webアプリ受託開発|
+|技術スタック例|[![icons](https://skillicons.dev/icons?i=md,html,tailwind,ts,vite,react,nextjs,nodejs,nestjs,prisma,java,spring,sqlite,postgres,supabase,cloudflare,aws,docker,github,figma&perline=10)](https://skillicons.dev)|
+|プロダクト例|- 自社Webサイト用RAGチャットボット開発<br>- タスク管理＆通知社内システム開発<br>- 建設業者CRM兼案件仲介Webアプリ受託開発など|
 |職務経歴書URL|[github.com/ok200ok](https://github.com/ok200ok)|
 |16タイプ|INTP論理学者|
 
@@ -33,7 +33,7 @@
 
 社員10名ほどのWeb制作会社にて約1年半、`TypeScript`言語での中小規模Web開発業務全般を基本単独で主担当しました。UX向上や将来性の視点も持ちながら、機能仕様やUI改善などを自ら検討・提案してきました。具体的な主業務は**詳細仕様の検討と提案、技術選択、各種設計、FE/BE/インフラ層の横断的な実装、ドキュメント作成、公開、継続保守など**です。その他並行業務として全社のHP制作案件ごとにホスト先PaaSインフラ立ち上げとDNS管理、既存開発案件の引き継ぎ保守、開発環境の整備、技術記事の執筆、エンジニア採用面接なども担当しました。
 
-今後は中大規模プロダクトのバックエンド開発をキャリアの軸足にしたく、直近では新たな技術スタックとして`Java`言語と`Spring`、また基本情報やAWS資格といった基礎知識の習得にも励んできました。
+技術面での今後のキャリアは、**主にバックエンドとクラウドインフラを軸足**にしつつ、引き続きTSフロントエンドも含めた横断的Web開発を続けたいと考えています。
 
 <details>
   <summary><h2 id="業務スキル">業務スキル</h2></summary>
@@ -42,25 +42,21 @@
 
 ### 要求ヒアリングと整理、詳細仕様検討、技術選択（選定）
 
-- ディレクターからの要望イメージのヒアリング
+- ディレクターから要望イメージのヒアリング
 - 大まかな機能要件整理
 - 詳細仕様検討と提案
 - （採用すべき主要技術の比較調査、技術選定）
-- Notion上にドキュメント作成・運用
+- マークダウンドキュメント作成・運用
 
-### RDBテーブル設計
+### RDBテーブル設計、パス設計、Reactコンポーネント設計など
 
 中間テーブル込みで10〜15程度の規模であれば、AI不使用でも要件定義済みの平文からERDを問題なく作成可能と判断されました
 
-- カラム設計（データ型や制約）
-- 各種リレーション
-- MermaidでのERD作成
-
-### URLパスとディレクトリ設計、Reactコンポーネント設計など
-
-- URLパス設計と修正（エンジニア主導でURLパス設計を行う提案と承認）
+- カラム列（データ型や制約）、各種リレーション
+- `Mermaid`でのERD作成
+- パス設計（Webアプリ、バックエンドAPI）
 - 関連物の凝集性を意識したディレクトリ設計
-- クラサバ境界に起因する、セキュリティリスクとRSC維持を常に意識したReactコンポーネント設計
+- Reactコンポーネント設計（クラサバ境界、レンダリングをブロックしないデータフェッチなど）
 
 ### フロントエンドFE実装
 
@@ -71,21 +67,22 @@
 - UIライブラリ導入
 - 入力バリデーション定義、フォーム実装
 - クエリ文字列や`Zustand`などを用いた状態管理
-- UX向上のためUI追加の提案と実装（ワイヤー変更、検索関連UI改善など。[職務経歴1-1](#詳細仕様の検討・提案・実装)）
+- UX向上のためワイヤーフレーム改善提案と実装（検索関連UI、トーストUIの追加など。[職務経歴1-1](#詳細仕様の検討・提案・実装)）
 
 （🙇‍♂️**↑内部リンク先の折りたたみ状態が開いていれば、有効に遷移します**🙇‍♂️）
 
 ### バックエンドBE実装
 
-- `Drizzle`, `Prisma`などORMによるCRUD操作
-- `BetterAuth`, `Supabase Auth`, `Clerk`など利用して認証
+- `Drizzle`, `Prisma`, `MyBatis`などORMによるCRUD操作
+- `BetterAuth`, `Supabase Auth`など利用して認証（OAuth, パワスード）
 - アクセス権限、可変UIなどによる認可制御
-- メール配信、GAS実行、RAG応答など外部APIの利用
-- これらを`Next.js`などのServer Functionsとしてメソッド化、または`Hono`や`Astro`にてAPIエンドポイントとして実装
+- メール配信、GAS実行、RAG応答、Slackへ送信など外部APIの利用
+- `Hono`, `Spring`でREST APIエンドポイント実装
+- `TanStack Start`, `Next.js`でServer Functions実装
 
 ### PaaSインフラ管理や移行、環境設定、DNS管理
 
-- `Cloudflare`立ち上げ、リダイレクトや認証保護の設定
+- `Cloudflare`セットアップ、リダイレクトや認証保護の設定
 - 要件ヒアリングと各種DNSレコード設定（[職務経歴1-ex](#HP制作案件ごとにPaaSインフラとDNSの管理)）
 - 引き継ぎ既存案件の`AWS Ampllify`にて、新たにプレビュー環境構築と自社先方確認フローの改善（[職務経歴1-ex](#ブランチ運用効率化による社内・先方確認フロー改善)）
 - Web開発案件にて2度のPaaSインフラ移行（[職務経歴1-1](#筆者の担当業務詳細1-1)）
@@ -103,7 +100,7 @@
 
 ### バックエンドBE
 
-`Node.js22(TS)`, `Hono`, `NestJS`, `DrizzleORM`, `PrismaORM`, `BetterAuth`, `Clerk`
+`Node.js(TS)`, `Hono`, `NestJS`, `DrizzleORM`, `PrismaORM`, `BetterAuth`
 
 `Java21`, `Spring Framework(Web/JPA/MyBatisORM/Security/Validation/Thymeleaf)`, `JUnit5`, `Mockito`
 
@@ -121,7 +118,7 @@
 
 ### ツール（MacOS）
 
-`Zsh`, `Mise`, `Git`, `Ghostty`, `OpenCode`, `Github Copilot`, `Zed`, `Cursor`, `VSCode`, `Eclipse`, `Notion`, `Slack`, `MicroCMS`, `Figma`, `Raycast`
+`Zsh`, `Mise`, `Ghostty`, `OpenCode`, `Github Copilot`, `Zed`, `Cursor`, `VSCode`, `Eclipse`, `Notion`, `Slack`, `MicroCMS`, `Figma`, `Raycast`
 
 </details>
 
@@ -134,9 +131,8 @@
 
 #### 受講理由
 
-1. 小規模Web開発から中大規模プロダクトのバックエンドBE開発へ本格的に移行するには、根本的に新たな技術スタックや体系的なIT基礎知識などを習得する必要性を以前から強く感じていたため
-2. 学習量が多そうな技術の独学に熱中した結果、大きく回り道してしまった未経験時代の[教訓](#独学のリスク)があるため
-3. 5つほど訓練を比較した中で最も実践的で信頼できそうなカリキュラムだったため
+1. 中大規模プロダクトのバックエンド開発へ本格的に移行するには、それに適した技術スタックやIT基礎知識など、根本から習得する必要性を以前から強く感じていたため
+2. 学習量が多い技術の独学に熱中した結果、大きく回り道してしまった未経験時代の[教訓](#独学のリスク)があるため
 
 #### 学習内容
 
@@ -172,7 +168,7 @@
 - Spring基本概念（依存性注入、AOP、MVCモデルなど）
 - Webの仕組みとHTTP
 - `Spring Web/MyBatisORM/Thymeleaf/Security` など各種モジュール
-- 数名でチーム開発（企画、設計、実装、テスト）
+- 個人プロジェクト（[tdd-openapi-spring](https://github.com/ok200ok#%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3%E5%AD%A6%E7%BF%92)）
 
 </details>
 
@@ -366,8 +362,8 @@
 
 ##### 開発環境の前提
 
-- 会社としてWebアプリ開発の実績と機会自体が乏しいため、初実務の筆者含めて社員の知識や経験値、人員、工期など根本的なリソースが慢性的に不足。そのため詳細仕様が事前に検討・ドキュメント化されることがほぼ無いので、**機能開発者はディレクターにその都度ヒアリングし、仕様とアプローチを自ら検討＆提案して進めるのが基本**でした
-- 筆者含めてテストケース策定とテストコード実装、コードレビューを行える人材は不在。またその工数確保もないため、各自ローカルで動作確認後セルフマージする運用（会社にGit自体が導入されてからまだ1年未満）。おそらく通例通り、リリース前に社員を動員して全ページで手動E2Eテスト？を実施しました。
+- 会社としてWebアプリ開発の実績と機会自体が乏しいため、初実務の筆者含めて社員の知識や経験値、人員、工期など根本的なリソースが慢性的に不足。そのため詳細仕様が事前に検討・ドキュメント化されることがほぼ無いので、**筆者がディレクターにその都度ヒアリングし、仕様とアプローチを自ら検討＆提案して進めるのが基本**でした
+- 筆者含めてテストケース策定とテストコード実装、コードレビューを行える人材は不在。またその工数確保もないため、各自ローカルで動作確認後セルフマージする運用（会社にGit自体が導入されてからまだ1年未満）。おそらく通例通りに、リリース前に社員を動員して全ページで手動E2Eテスト？を実施しました。
 
 <h5 id="筆者の担当業務詳細1-1">筆者の担当業務詳細</h5>
 
@@ -452,7 +448,7 @@
 |筆者の属人リスク、将来的な保守性に対処するには|全社向け・エンジニア向けに丁寧にドキュメント作成|属人リスク低下、引継ぎ保守性など向上|
 |動的機能UIを短納期で実装するには|独自デザイン要件が強いユーザー画面にはヘッドレスUIライブラリを、一方管理画面などにはスタイリング済みUIライブラリの導入を提案。どちらも実際に使用して進捗させ、実装実績も残した|アプリUI開発の工期大幅短縮、ビジネスメリットの周知<br>ただし工数削減圧力は不変なため、開発者の業務外学習に強く依存|
 |コード随所で重複するTS型が増加。筆者以外がTS型エラーを放置・無理に突破する風潮が常態化しそうだった|なるべくTS型は自作せずにDBスキーマから自動生成、特定場所に保存・更新しながら使い回す運用の導入、他エンジニアへの周知|デバッグ時間削減、IDE補完による開発生産性向上、短納期は開発者モラルも大きく低下させるという気付き|
-|URLパス設計に起因する実装工数の微増ケースが複数あった（クエリ文字列と状態管理の追加実装）|FBルーティングに直結する最重要設計の一つのため、今後開発案件ではエンジニア主導でURLパス設計を行う提案|左記提案の承認（以来アプリ開発案件が無く機会はありませんでした。）|
+|URLパス設計に起因する実装工数の微増ケースが複数あった（クエリ文字列と状態管理の追加実装）|FBルーティングに直結する最重要設計の一つのため、今後開発案件ではエンジニア主導でURLパス設計を行う提案|左記提案の承認（その後開発案件自体がゼロのため[自己学習](https://github.com/ok200ok#%E3%83%8F%E3%83%B3%E3%82%BA%E3%82%AA%E3%83%B3%E5%AD%A6%E7%BF%92)）|
 |筆者の作業工数やタスク粒度が大きく、進捗や作業量を周囲が把握しにくい|**反省**：お互いの慢性的な時間不足からディレクターとは口頭会議も多く、テキスト量も毎回多くなるため（勝手に周囲に配慮したつもりで）個別チャットしていた|**学び**：開発者の作業範囲や実際の工数が理解されにくい現場では、むしろ議論や提案、作業は常にオープンにすべきだった|
 
 </details>
@@ -515,8 +511,8 @@
 
 |リポジトリ名・使用技術|概要・機能|注力・備考|
 |---|---|---|
-|[tdd-openapi-spring](https://github.com/ok200ok/tdd-openapi-spring) <br><br>`Mise`, `Java21`, `Gradle`, `Spring Framework(Web/DataJPA/Validation/Security etc)`, `PostgreSQL`, `Docker Compose`, `SwaggerUI`, `Javadoc`, `JUnit5`, `Mockito`, `Testcontainers`, `Github Actions/Pages`, `OpenCode`, `Github Copilot` etc.|`Spring Framework`を用いた基礎的なバックエンドAPI開発を、**妥協せず丁寧に実践する**ための課外プロジェクトです。 <br><br>主な学習成果や機能：<br>- [テスト駆動開発](https://github.com/ok200ok/tdd-openapi-spring#%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E9%80%B2%E3%82%81%E6%96%B9)（仕様→ケース策定→RED→GREEN）<br>- 分離環境での単体・結合テスト（[全110件](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/test-case-catalog.md)）<br>- AI駆動開発（[エージェント制御仕様](https://github.com/ok200ok/tdd-openapi-spring/blob/main/AGENTS.md)、解説的な対話）<br>- レイヤードアーキテクチャ<br>- 基本的な[REST API設計](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/api-design.md)<br>- コードファーストOpenAPI（`SwaggerUI`によるAPIサイトの自動生成）<br>- [データモモデリング](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/data-modeling.md)（テーブル設計、JPA仕様のマッピングなど）<br>- パスワード認証（JWT）と[認可設計](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/authentication-design.md)<br>- DevOps（テスト実行CI、[`Javadoc`デプロイ](https://ok200ok.github.io/tdd-openapi-spring/)CD、`Mise`による[開発環境セットアップ](https://github.com/ok200ok/tdd-openapi-spring#-%E8%B5%B7%E5%8B%95%E6%96%B9%E6%B3%95)、`main`ブランチ保護、）|例のごとく初めての言語・FW・ライブラリ・ツールでも挑戦的に採用し、かつ初めてテスト駆動開発も実践してみました。<br>特に自動テストに関する用語・関連ライブラリ・運用方法など、言語を超える基本的なソフトウェア開発知見が底上げできたたように感じます。<br><br>全体的に学習コストが常に高く大変だった分、得られた経験値もかなり大きく、今後プライベートで取り組むべき技術分野もよりクリアになりました。
-|[full-tanstack-starter](https://github.com/ok200ok/full-tanstack-starter) <br><br>`TypeScript`, `React19`, `Vite`, `TanStack Start/Router/Query/Form`, `TailwindCSS`, `Shadcn/ui`, `Zod`, `DrizzleORM`, `BetterAuth`, `Docker`, `NeonDB`, `Netlify`, `GithubActions` etc.|脱Next.jsの集大成として作成した自分用Webアプリテンプレです <br><br>主な機能：<br>- 初期RDBスキーマとORM設定<br>- OAuth認証とメアドパスワード認証<br>- アプリ本体とDBの即デプロイ設定<br>- 自動マイグレーションとホスト先PaaS自動ビルドのCD（ステージングと本番の2環境）<br>- フルレスポンシブUI<br>- ダークモード<br>- 404と例外キャッチ<br>- アーキテクチャや実装方針を詳細に定義した各種ドキュメントなど|**使用技術の学習と実装、アーキテクチャや実装方針の熟考と明文化に半年かけて挑戦しました**。<br>1. 常にDBスキーマを唯一の情報源（Single Source of Truth）とし、エンティティ関連の多重定義と分散を防ぐ[SSOT戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/drizzle-zod-ssot.md)。具体的にはRDBスキーマからZodスキーマとTS型を自動生成して使いまわすもの<br>2. 親コンポーネントのUIレンダリングをブロックしない非同期データフェッチとキャッシュ設計、ディレクトリ設計、UI状態管理ソースとしてのクエリパラメータ活用などを定義した[`TanStack`運用戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/tanstack-router.md)<br>3. `本番`, `開発統合`, `各作業`の3層ブランチ構造に連動させた各環境自動ビルド[CD戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/gitflow-hosting-cd.md)<br>4. デザインシステム、アクセシビリティなどの[UI構築戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/ui.md)<br><br>将来的なLLMの性能向上によるこれら文書の陳腐化リスクを承知の上で、**学習アウトプットとコーディングAI制御の練習を目的**として作成しました
+|[tdd-openapi-spring](https://github.com/ok200ok/tdd-openapi-spring) <br><br>`Mise`, `Java21`, `Gradle`, `Spring Framework(Web/DataJPA/Validation/Security etc)`, `PostgreSQL`, `Docker Compose`, `SwaggerUI`, `Javadoc`, `JUnit5`, `Mockito`, `Testcontainers`, `Github Actions/Pages`, `OpenCode`, `Github Copilot` etc.|`Java/Spring`での基礎的なバックエンドAPI開発を、**妥協せず丁寧に実践する**ための課外プロジェクトです <br><br>主な学習成果や機能：<br>- [テスト駆動開発](https://github.com/ok200ok/tdd-openapi-spring#%E3%82%BF%E3%82%B9%E3%82%AF%E3%81%AE%E9%80%B2%E3%82%81%E6%96%B9)（仕様→ケース策定→RED→GREEN）<br>- 分離環境での単体・結合テスト（[全110件](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/test-case-catalog.md)）<br>- AI駆動開発<br>- レイヤードアーキテクチャ<br>- 基本的な[REST API設計](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/api-design.md)<br>- コードファーストOpenAPI（`SwaggerUI` APIサイトの自動生成）<br>- [テーブル設計とJPA仕様のマッピング](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/data-modeling.md)<br>- [パスワード認証（JWT）と認可設計](https://github.com/ok200ok/tdd-openapi-spring/blob/main/docs/authentication-design.md)<br>- DevOps（テスト実行CI、[`Javadoc`デプロイ](https://ok200ok.github.io/tdd-openapi-spring/)CD、`Mise`による[開発環境セットアップ](https://github.com/ok200ok/tdd-openapi-spring#-%E8%B5%B7%E5%8B%95%E6%96%B9%E6%B3%95)、`main`ブランチ保護ルール）|初めての言語・FW・ライブラリ・ツールを例の如く挑戦的に採用し、かつ初めてテスト駆動開発も実践してみました。<br>特に自動テストに関する用語・関連ライブラリ・運用方法など、言語に依存しないソフトウェア開発知見を底上げできたたように感じます。<br><br>全体的に学習コストが常に高く大変だった分、得られた経験値もかなり大きく、今後プライベートで取り組むべき技術分野もよりクリアになりました。
+|[full-tanstack-starter](https://github.com/ok200ok/full-tanstack-starter) <br><br>`TypeScript`, `React19`, `Vite`, `TanStack Start/Router/Query/Form`, `TailwindCSS`, `Shadcn/ui`, `Zod`, `DrizzleORM`, `BetterAuth`, `Docker`, `NeonDB`, `Netlify`, `GithubActions` etc.|メインのReactメタフレームワークを`Next.js`から`TanStack`へ移行する計画の集大成として作成した自分用Webアプリテンプレです。**使用技術の学習と実装、アーキテクチャの熟考、実装方針の明文化**などに半年かけて挑戦しました<br><br>主な機能：<br>- 初期RDBスキーマとORM設定<br>- OAuth認証とメアドパスワード認証<br>- アプリ本体とDBの即デプロイ設定<br>- 自動マイグレーションとホスト先PaaS自動ビルドのCD（ステージングと本番の2環境）<br>- フルレスポンシブUI<br>- ダークモード<br>- 404と例外キャッチ<br>- アーキテクチャや実装方針を詳細に定義した各種ドキュメントなど|学習アウトプットとエージェント制御の練習を目的に、全てのドキュメントとコード例を手書きで作成しました<br><br>1. 常にDBスキーマを唯一の情報源（Single Source of Truth）とし、エンティティ関連の多重定義と分散を防ぐ[SSOT戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/drizzle-zod-ssot.md)。具体的にはRDBスキーマからZodスキーマとTS型を自動生成して使いまわすもの<br>2. 親コンポーネントのUIレンダリングをブロックしない非同期データフェッチとキャッシュ設計、ディレクトリ設計、UI状態管理ソースとしてのクエリパラメータ活用などを定義した[`TanStack`運用戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/tanstack-router.md)<br>3. `本番`, `開発統合`, `各作業`の3層ブランチ構造に連動させた各環境自動ビルド[CD戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/gitflow-hosting-cd.md)<br>4. デザインシステム、アクセシビリティなどの[UI構築戦略](https://github.com/ok200ok/full-tanstack-starter/blob/main/docs/ui.md)
 |[discord-clone](https://github.com/ok200ok/discord-clone)（停止中） <br><br>`TypeScript`, `React18`, `Next.js13`, `TailwindCSS`, `Shadcn/ui`, `Motion`, `Three.js`, `Zustand`, `ReactHookForm`, `Zod`, `PrismaORM`, `Clerk`, `Socket.io`, `Livekit`, `Uploadthing`, `Docker`, `Render` etc.|未経験転職時のポートフォリオとして作成した最初のWebアプリです<br><br>主な機能：<br>- WebSocket通信によるリアルタイムチャット（グループとDM）<br>- 画像とPDFの送信<br>- ビデオ通話<br>- コミュニティと会話チャンネルの作成・編集・削除<br>- メンバー招待・追放<br>- OAuth認証とメアドパスワード認証<br>- フルレスポンシブUI<br>- ダークモード<br>- フォーム入力検証<br>- ランディングページなど|アプリ機能の充実はもちろん、DevOpsや細やかな開発記録など**保守性やチーム開発も意識した実践的かつ実直な開発を当時の限界まで挑戦しました**。<br>1. アプリ本体、DB、開発環境をDockerコンテナ化して再現性向上<br>2. ホスト先プラットフォームの設定をIaC化して保守性向上<br>3. 自動でDBマイグレーション、本番Dockerイメージビルド、コンテナレジストリにプッシュまで一貫するCDパイプライン<br>4. `Github Projects`上でタスクごとにバックログやIssueの作成、PR作成、確認してマージなど一人擬似アジャイル？で練習<br><br>余談ですが最初から全ての記述を英語にしていたことが功を奏し、海外の同じ駆け出しエンジニア数名からとても感謝されたのは非常に嬉しい出来事でした|
 |[next13-nestjs-graphql](https://github.com/ok200ok/next13-nest-graphql) <br><br>`TypeScript`, `React18`, `Next.js`, `NestJS`, `PrismaORM`, `GraphQL`, `Apollo`, `Turborepo`, `Docker`, etc.|左記FEとBEの主要フレームワーク、それらのモノレポ構成、`GraphQL API`とその関連ライブラリなどを学習した際のプロジェクト|言わずもがな`GraphQL`やモノレポは、`TypeScript`単一言語による中小規模Webアプリ開発には過剰な技術。未経験エンジニアが2022年当時の流行技術に強く興味を持った結果、半年以上費やしてしまい大きく回り道をしました。<br><br>**「未知の技術を独学で学ぶ際は熱中しすぎるリスクを伴う」** という<span id="独学のリスク">教訓</span>を得たため、のちに「職業訓練校でJavaを学んでみる」という選択につながりました|
 
