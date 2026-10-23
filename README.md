@@ -33,7 +33,7 @@
 
 社員10名ほどのWeb制作会社にて約1年半、`TypeScript`言語での中小規模Web開発業務全般を基本単独で主担当しました。UX向上や将来性の視点も持ちながら、機能仕様やUI改善などを自ら検討・提案してきました。具体的な主業務は**詳細仕様の検討と提案、技術選択、各種設計、FE/BE/インフラ層の横断的な実装、ドキュメント作成、公開、継続保守など**です。その他並行業務として全社のHP制作案件ごとにホスト先PaaSインフラ立ち上げとDNS管理、既存開発案件の引き継ぎ保守、開発環境の整備、技術記事の執筆、エンジニア採用面接なども担当しました。
 
-技術面での今後のキャリアは、**主にバックエンドとクラウドインフラを軸足**にしつつ、引き続きTSフロントエンドも含めた横断的Web開発を続けたいと考えています。
+技術面での今後のキャリアは、**主にバックエンドとクラウドを軸足**にしつつ、引き続き`React`フロントエンドも含めた横断的Web開発を続けたいと考えています。
 
 <details>
   <summary><h2 id="業務スキル">業務スキル</h2></summary>
@@ -62,11 +62,11 @@
 
 ヘッドレスUIライブラリ（`RadixUI`）とスタイル済みUIライブラリ（`Shadcn/ui`）を案件のデザイン要件に応じて使い分けながら導入。セマンティクスとスタイル柔軟性を両立させながら実装工数を大幅に削減し高く評価されました（実際に[過去案件](https://tokyo.m-bike-mk.com/)の[2ページ](https://www.storageoh.jp/inquiry)を完全再現してコード例実績とビジネスメリットを提案）
 
-- セマンティック`HTML`（アクセシビリティUX担保）
-- `CSS Modules`スタイリングでFigmaデザイン再現、または`TailwindCSS`で微調整
+- セマンティック`HTML`（アクセシビリティUX）
+- `CSS Modules`でFigmaデザイン再現、または`TailwindCSS`で微調整
 - UIライブラリ導入
 - 入力バリデーション定義、フォーム実装
-- クエリ文字列や`Zustand`などを用いた状態管理
+- クエリ文字列や`Zustand`などを用いたUI状態管理
 - UX向上のためワイヤーフレーム改善提案と実装（検索関連UI、トーストUIの追加など。[職務経歴1-1](#詳細仕様の検討・提案・実装)）
 
 （🙇‍♂️**↑内部リンク先の折りたたみ状態が開いていれば、有効に遷移します**🙇‍♂️）
@@ -74,18 +74,18 @@
 ### バックエンドBE実装
 
 - `Drizzle`, `Prisma`, `MyBatis`などORMによるCRUD操作
-- `BetterAuth`, `Supabase Auth`など利用して認証（OAuth, パワスード）
-- アクセス権限、可変UIなどによる認可制御
-- メール配信、GAS実行、RAG応答、Slackへ送信など外部APIの利用
-- `Hono`, `Spring`でREST APIエンドポイント実装
+- `BetterAuth`, `Spring Security`など利用して認証（OAuth, パワスード）
+- アクセス権限、可変UIなどによる認可制御（セッション、JWT） 
+- メール配信、GAS実行、RAG応答、`Slack`, `Notion`など外部APIの利用
+- `Hono`, `NestJS`, `Astro`, `Spring`でREST API実装
 - `TanStack Start`, `Next.js`でServer Functions実装
 
 ### PaaSインフラ管理や移行、環境設定、DNS管理
 
 - `Cloudflare`セットアップ、リダイレクトや認証保護の設定
 - 要件ヒアリングと各種DNSレコード設定（[職務経歴1-ex](#HP制作案件ごとにPaaSインフラとDNSの管理)）
-- 引き継ぎ既存案件の`AWS Ampllify`にて、新たにプレビュー環境構築と自社先方確認フローの改善（[職務経歴1-ex](#ブランチ運用効率化による社内・先方確認フロー改善)）
-- Web開発案件にて2度のPaaSインフラ移行（[職務経歴1-1](#筆者の担当業務詳細1-1)）
+- 引き継いだ既存案件の`AWS Ampllify`にて、新たにプレビュー環境構築と自社先方確認フローを改善（[職務経歴1-ex](#ブランチ運用効率化による社内・先方確認フロー改善)）
+- 受託Web開発案件にて2度のPaaSインフラ移行（[職務経歴1-1](#筆者の担当業務詳細1-1)）
 
 </details>
 
@@ -118,7 +118,7 @@
 
 ### ツール（MacOS）
 
-`Zsh`, `Mise`, `Ghostty`, `OpenCode`, `Github Copilot`, `Zed`, `Cursor`, `VSCode`, `Eclipse`, `Notion`, `Slack`, `MicroCMS`, `Figma`, `Raycast`
+`Zsh`, `Ghostty`, `Mise`, `OpenCode`, `Github Copilot`, `Zed`, `Cursor`, `VSCode`, `Notion`, `Slack`, `MicroCMS`, `Figma`, `Raycast`
 
 </details>
 
