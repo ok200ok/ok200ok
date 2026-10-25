@@ -1,6 +1,6 @@
 # 職務経歴書
 
-最終更新: 2026/10/21
+最終更新: 2026/10/25
 
 ## プロフィール
 
@@ -12,7 +12,7 @@
 |経験職種|`TypeScript`言語での中小規模Web開発|
 |領域|フロントエンドFE, バックエンドBE, クラウドインフラ|
 |実務年数|1年8ヶ月|
-|技術スタック例|[![icons](https://skillicons.dev/icons?i=md,html,tailwind,ts,vite,react,nextjs,nodejs,nestjs,prisma,java,spring,sqlite,postgres,supabase,cloudflare,aws,docker,github,figma&perline=10)](https://skillicons.dev)|
+|技術スタック|![Skill Icons](https://skills.syvixor.com/api/icons?i=html,tailwindcss,typescript,reactjs,tanstack,nextjs,shadcnui,reacthookform,zod,nodejs,hono,nestjs,drizzle,prisma,betterauth,eslint,biome,java,spring,junit5,swagger,graphql,postgresql,neon,supabase,cloudflare,amazonwebservices,docker,github,githubactions,zshell,opencode,zed,notion,slack,figma&perline=12&radius=40)|
 |プロダクト例|- 自社Webサイト用RAGチャットボット開発<br>- タスク管理＆通知社内システム開発<br>- 建設業者CRM兼案件仲介Webアプリ受託開発など|
 |職務経歴書URL|[github.com/ok200ok](https://github.com/ok200ok)|
 |16タイプ|INTP論理学者|
@@ -31,9 +31,10 @@
 
 ## 職務要約
 
-社員10名ほどのWeb制作会社にて約1年半、`TypeScript`言語での中小規模Web開発業務全般を基本単独で主担当しました。UX向上や将来性の視点も持ちながら、機能仕様やUI改善などを自ら検討・提案してきました。具体的な主業務は**詳細仕様の検討と提案、技術選択、各種設計、FE/BE/インフラ層の横断的な実装、ドキュメント作成、公開、継続保守など**です。その他並行業務として全社のHP制作案件ごとにホスト先PaaSインフラ立ち上げとDNS管理、既存開発案件の引き継ぎ保守、脆弱性対応、開発環境の整備、技術記事の執筆、エンジニア採用面接なども担当しました。
+社員10名ほどのWeb制作会社にて約1年半、`TypeScript`言語での中小規模Web開発業務全般を基本単独で主担当しました。UX向上や将来性の視点も持ちながら、機能仕様やUI改善などを自ら検討・提案してきました。具体的な主業務は**詳細仕様の検討と提案、技術選択、各種設計、FE/BE/インフラ層の横断的な実装、ドキュメント作成、公開、継続保守など**です。その他並行業務として全社のHP制作案件ごとにホスト先PaaSインフラ立ち上げ・DNS管理、既存開発案件の引き継ぎ保守、脆弱性対応、開発環境の整備、技術記事の執筆、エンジニア採用面接なども担当しました。
 
-技術面での今後のキャリアは、**主にバックエンドとクラウドを軸足**にしつつ、引き続き`React`フロントエンドも含めた横断的Web開発を続けたいと考えています。
+今後の技術面でのキャリアは、**主にバックエンドとクラウドを軸足**にしつつ、引き続きTSフロントエンドも含めた横断的Web開発を続けたいと考えています。
+
 
 <details>
   <summary><h2 id="業務スキル">業務スキル</h2></summary>
@@ -96,7 +97,7 @@
 
 ### フロントエンドFE
 
-`HTML`, `TailwindCSS`, `CSSModules`, `TypeScript5`, `Vite`, `Astro`, `React19`, `TanStack Start/Router`, `Next.js14,15 AppRouter`, `Shadcn/ui`, `RadixUI`, `Zustand`, `TanStack Query/Table/Form`, `ReactHookForm`
+`HTML`, `TailwindCSS`, `CSSModules`, `TypeScript5`, `Vite`, `Astro`, `React19`, `TanStack Start/Router`, `Next.js14,15 AppRouter`, `Shadcn/ui`, `RadixUI`, `Zustand`, `TanStack Query/Table/Form`, `ReactHookForm`, `Zod4`
 
 ### バックエンドBE
 
@@ -104,17 +105,17 @@
 
 `Java21`, `Spring Framework(Web/JPA/MyBatisORM/Security/Validation/Thymeleaf)`, `JUnit5`, `Mockito`
 
-`Docker`, `Testcontainers`, `SQL`, `SQLite`, `PostgreSQL`, `NeonDB`, `Supabase ORM/DB/Auth/Storage`, `OpenAPI/SwaggerUI`
+`SQL`, `SQLite`, `PostgreSQL`, `NeonDB`, `Supabase ORM/DB/Auth/Storage`
+
+### その他 / DevOps
+
+`ESLint`, `Prettier`, `Biome`, `Pnpm`, `Husky`, `Turborepo`, `Github Actions/Projects/Pages`, `Docker`, `Testcontainers`, `OpenAPI/SwaggerUI`, `GraphQL(Apollo/Codegen)`
 
 ### PaaS / AWS
 
 `Cloudflare Workers/Pages/D1/DNS/Access`, `Vercel`, `Netlify`,
 
 `AWS Amplify`, `IAM`, `EventBridge`, `Lambda`, `SES`, `S3`, `S3 Vectors`, `Bedrock KnowledgeBase`, `Bedrock Agents`
-
-### その他 / DevOps
-
-`Zod4`, `ESLint`, `Prettier`, `Biome`, `Pnpm`, `Husky`, `Github Actions/Projects/Pages`, `Turborepo`, `GraphQL(Apollo/Codegen)`
 
 ### ツール（MacOS）
 
@@ -184,7 +185,7 @@
 |取引業態|元請け直接取引|
 |社員数|11名前後（うちマークアップエンジニアME2〜3名, 筆者含む開発エンジニア1〜2名）|
 |主な担当業務|受託および自社の開発案件において、詳細仕様の検討と提案、技術選択、各種設計、FE/BE/インフラ層の横断的な実装、ドキュメント作成・運用、公開、継続保守など開発業務全般|
-|その他並行業務|全社HP制作案件ごとにホスト先PaaS立ち上げとDNS管理、既存開発案件の引き継ぎ保守、脆弱性対応、リンター設定やGit運用法など開発環境の調査と整備、技術記事執筆、エンジニア採用面接など|
+|その他並行業務|全社HP制作案件ごとにホスト先PaaS立ち上げ・DNS管理、既存開発案件の引き継ぎ保守、リンター設定・Git運用法など開発環境の調査・整備、技術記事執筆、エンジニア採用面接など|
 
 最も困難だったプロジェクトは、入社直後に参加したフルスタックWeb開発案件（1-1）です。
 
