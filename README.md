@@ -12,7 +12,7 @@
 |経験職種|`TypeScript`言語での中小規模Web開発|
 |領域|フロントエンドFE, バックエンドBE, クラウドインフラ|
 |実務年数|1年8ヶ月|
-|スタック|![Skill Icons](https://skills.syvixor.com/api/icons?i=html,tailwindcss,typescript,reactjs,tanstack,nextjs,shadcnui,reacthookform,zod,nodejs,hono,nestjs,drizzle,prisma,betterauth,eslint,biome,java,spring,junit5,swagger,graphql,postgresql,neon,supabase,cloudflare,amazonwebservices,docker,github,githubactions,zshell,opencode,zed,notion,slack,figma&perline=12&radius=40)|
+|技術スタック|![Skill Icons](https://skills.syvixor.com/api/icons?i=html,tailwindcss,typescript,reactjs,tanstack,nextjs,shadcnui,reacthookform,zod,nodejs,hono,nestjs,drizzle,prisma,betterauth,eslint,biome,java,spring,junit5,swagger,graphql,postgresql,neon,supabase,cloudflare,amazonwebservices,docker,github,githubactions,zshell,opencode,zed,notion,slack,figma&perline=12&radius=40)|
 |プロダクト例|- 自社Webサイト用RAGチャットボット開発<br>- タスク管理＆通知社内システム開発<br>- 建設業者CRM兼案件仲介Webアプリ受託開発など|
 |職務経歴書URL|[github.com/ok200ok](https://github.com/ok200ok)|
 |16タイプ|INTP論理学者|
@@ -97,25 +97,25 @@
 
 ### フロントエンドFE
 
-`HTML`, `TailwindCSS`, `CSSModules`, `TypeScript5`, `Vite`, `Astro`, `React19`, `TanStack Start/Router`, `Next.js14,15 AppRouter`, `Shadcn/ui`, `RadixUI`, `Zustand`, `TanStack Query/Table/Form`, `ReactHookForm`
+`HTML`, `TailwindCSS`, `CSSModules`, `TypeScript5`, `Vite`, `Astro`, `React19`, `TanStack Start/Router`, `Next.js14,15 AppRouter`, `Shadcn/ui`, `RadixUI`, `Zustand`, `TanStack Query/Table/Form`, `ReactHookForm`, `Zod4`
 
 ### バックエンドBE
 
-`Node.js22(TS)`, `Hono`, `NestJS`, `DrizzleORM`, `PrismaORM`, `BetterAuth`
+`Node.js(TS)`, `Hono`, `NestJS`, `DrizzleORM`, `PrismaORM`, `BetterAuth`
 
 `Java21`, `Spring Framework(Web/JPA/MyBatisORM/Security/Validation/Thymeleaf)`, `JUnit5`, `Mockito`
 
-`Docker`, `Testcontainers`, `SQL`, `SQLite`, `PostgreSQL`, `NeonDB`, `Supabase ORM/DB/Auth/Storage`, `OpenAPI/SwaggerUI`
+`SQL`, `SQLite`, `PostgreSQL`, `NeonDB`, `Supabase ORM/DB/Auth/Storage`
+
+### その他 / DevOps
+
+`ESLint`, `Prettier`, `Biome`, `Pnpm`, `Husky`, `Turborepo`, `Github Actions/Projects/Pages`, `Docker`, `Testcontainers`, `OpenAPI/SwaggerUI`, `GraphQL(Apollo/Codegen)`
 
 ### PaaS / AWS
 
 `Cloudflare Workers/Pages/D1/DNS/Access`, `Vercel`, `Netlify`,
 
 `AWS Amplify`, `IAM`, `EventBridge`, `Lambda`, `SES`, `S3`, `S3 Vectors`, `Bedrock KnowledgeBase`, `Bedrock Agents`
-
-### その他 / DevOps
-
-`Zod4`, `ESLint`, `Prettier`, `Biome`, `Pnpm`, `Husky`, `Github Actions/Projects/Pages`, `Turborepo`, `GraphQL(Apollo/Codegen)`
 
 ### ツール（MacOS）
 
