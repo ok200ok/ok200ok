@@ -12,7 +12,7 @@
 |経験職種|`TypeScript`言語での中小規模Web開発|
 |領域|フロントエンドFE, バックエンドBE, クラウドインフラ|
 |実務年数|1年8ヶ月|
-|技術スタック|![Skill Icons](https://skills.syvixor.com/api/icons?i=html,tailwindcss,typescript,reactjs,tanstack,nextjs,shadcnui,reacthookform,zod,nodejs,hono,nestjs,drizzle,prisma,betterauth,eslint,biome,java,spring,junit5,swagger,graphql,postgresql,neon,supabase,cloudflare,amazonwebservices,docker,github,githubactions,zshell,opencode,zed,notion,slack,figma&perline=12&radius=40)|
+|技術スタック|![Skill Icons](https://skills.syvixor.com/api/icons?i=html,tailwindcss,typescript,reactjs,tanstack,nextjs,shadcnui,reacthookform,zod,nodejs,hono,nestjs,drizzle,prisma,betterauth,eslint,biome,java,spring,junit5,swagger,graphql,postgresql,neon,supabase,cloudflare,amplify,amazonwebservices,docker,github,githubactions,zshell,opencode,zed,cursor,figma&perline=12&radius=40)|
 |プロダクト例|- 自社Webサイト用RAGチャットボット開発<br>- タスク管理＆通知社内システム開発<br>- 建設業者CRM兼案件仲介Webアプリ受託開発など|
 |職務経歴書URL|[github.com/ok200ok](https://github.com/ok200ok)|
 |16タイプ|INTP論理学者|
