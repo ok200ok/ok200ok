@@ -1,6 +1,6 @@
 # 職務経歴書
 
-最終更新: 2026/10/29
+最終更新: 2026/11/09
 
 ## プロフィール
 
@@ -9,11 +9,11 @@
 |項目|内容|
 |---|---|
 |名前|おくの|
-|経験職種|`TypeScript`言語での中小規模Web開発|
+|経験職種|中小規模Web開発（`TypeScript`）|
 |領域|フロントエンドFE, バックエンドBE, クラウドインフラ|
 |実務年数|1年8ヶ月|
-|技術スタック|![Skill Icons](https://skills.syvixor.com/api/icons?i=html,tailwindcss,typescript,reactjs,tanstack,nextjs,shadcnui,reacthookform,zod,nodejs,hono,nestjs,drizzle,prisma,betterauth,java,spring,junit5,openapi,graphql,sqlite,postgresql,neon,supabase,cloudflare,vercel,amplify,amazonwebservices,docker,github,githubactions,zshell,opencode,zed,cursor,figma&perline=12&radius=40)|
-|プロダクト例|- 自社Webサイト用RAGチャットボット開発<br>- タスク管理＆通知社内システム開発<br>- 建設業者CRM兼案件仲介Webアプリ受託開発など|
+|技術スタック|![Skill Icons](https://skills.syvixor.com/api/icons?i=html,tailwindcss,typescript,reactjs,tanstack,nextjs,shadcnui,reacthookform,zod,nodejs,hono,drizzle,prisma,betterauth,java,spring,junit5,openapi,graphql,postgresql,neon,supabase,cloudflare,amplify,amazonwebservices,docker,github,githubactions,zshell,opencode,zed,cursor,figma&perline=11&radius=40)|
+|プロダクト例|- 自社Webサイト用RAGチャットボット<br>- タスク管理＆通知社内システム<br>- 建設業者CRM兼案件仲介Webサービス<br>- トランクルーム検索予約サービス保守|
 |職務経歴書URL|[github.com/ok200ok](https://github.com/ok200ok)|
 |16タイプ|INTP論理学者|
 
@@ -33,7 +33,7 @@
 
 社員10名ほどのWeb制作会社にて約1年半、`TypeScript`言語での中小規模Web開発業務全般を基本単独で主担当しました。UX向上や将来性の視点も持ちながら、機能仕様やUI改善などを自ら検討・提案してきました。具体的な主業務は**詳細仕様の検討と提案、技術選択、各種設計、FE/BE/インフラ層の横断的な実装、ドキュメント作成、公開、継続保守など**です。その他並行業務として全社のHP制作案件ごとにホスト先PaaSインフラ立ち上げ・DNS管理、既存開発案件の引き継ぎ保守、脆弱性対応、開発環境の整備、技術記事の執筆、エンジニア採用面接なども担当しました。
 
-今後の技術面でのキャリアは、**主にバックエンドとクラウドを軸足**にしつつ、引き続きTSフロントエンドも含めた横断的Web開発を続けたいと考えています。
+今後技術面においては、**バックエンドとクラウドを軸足**にさらに知見を深め、引き続きTSフロントエンドも含めた総合的なWeb開発を続けたいと考えています。
 
 
 <details>
@@ -41,14 +41,12 @@
 
 すべて中小規模Web開発におけるものです
 
-### 要求ヒアリングと整理、仕様検討・提案、技術選択（選定）
+### 要求ヒアリングと整理、技術選択（選定）、仕様検討・提案
 
-- 社内ディレクターや取引先担当者から要望イメージのヒアリング
-- 大まかな機能要件整理・確認
-- （採用すべき主要技術の比較調査、技術選定）
-- 全体システムアーキテクチャ検討
+- 社内ディレクターから要望イメージのヒアリング、大まかに機能要件整理・相談
+- 技術選択（必要に応じて比較調査も含めた技術選定）
+- 詳細仕様検討（[例：職務経歴1-1](#詳細仕様の検討・提案・実装)）
 - ドキュメント作成・運用
-- 主要機能などの詳細仕様検討（[職務経歴1-1](#詳細仕様の検討・提案・実装)）
 
 （🙇‍♂️**↑内部リンク先の折りたたみ状態が開いていれば、有効に遷移します**🙇‍♂️）
 
@@ -59,40 +57,38 @@
 - カラム列（データ型や制約）、リレーション3種
 - `Mermaid`でのERD作成
 - URLパス設計（Webアプリ、バックエンドAPI）
-- 凝集性を意識したディレクトリ設計
+- ディレクトリ設計（特にFBルーティングでは凝集性を意識）
 
 ### フロントエンドFE実装
 
-例えばヘッドレスUIライブラリ（`RadixUI`）とスタイル済みUIライブラリ（`Shadcn/ui`）をデザイン要件に応じて複数案件に導入。セマンティクスとスタイル柔軟性を両立させながら実装工数を大幅に削減しました（実際に[過去案件](https://tokyo.m-bike-mk.com/)の[2ページ](https://www.storageoh.jp/inquiry)を完全再現してコード例実績とビジネスメリットを提案）。
+例えばヘッドレスUIライブラリ（`RadixUI`）とスタイル済みUIライブラリ（`Shadcn/ui`）をデザイン要件に応じて複数案件に導入。セマンティクスとスタイル柔軟性を両立させながら実装工数を大幅に削減しました（実際に[過去案件](https://tokyo.m-bike-mk.com/)の[2ページ](https://www.storageoh.jp/inquiry)を再現してコード例実績とビジネスメリットを提案）。
 
-- セマンティック`HTML`（アクセシビリティUX）
-- Figmaデザイン再現・調整（`CSS Modules`または`TailwindCSS`）
-- UIライブラリ導入
-- Reactコンポーネント設計（特にクラサバ境界、レンダリングをブロックしないデータフェッチなどを意識）
-- 入力バリデーション定義とフォーム実装
+- セマンティック`HTML`と`CSS`マークアップ
+- Reactコンポーネント設計・実装（特にクラサバ境界、レンダリングをブロックしないデータフェッチなどを意識）
+- 入力バリデーション定義とフォーム実装（`Zod`, `ReactHookForm`）
 - クエリ文字列や`Zustand`などを用いたUI状態管理
-- UX向上のためワイヤーフレーム改善提案と実装（検索関連UI、トーストUIの追加など）
+- ワイヤーフレーム改善提案と実装（検索関連UI、トーストUIの追加など）
 
 ### バックエンドBE実装
 
 - 下記を実装するREST API構築（`Hono`, `NestJS`, `Astro`, `Spring`）、またはServer Functions構築（`TanStack Start`, `Next.js`）
 - ORMによるCRUD操作（`Drizzle`, `Prisma`, `MyBatis`）
-- ソーシャルログイン、パスワード認証（`BetterAuth`, `Spring Security`）
-- 権限に基づきパス制御、可変UIなど認可処理
+- ソーシャルログイン、パスワード認証（`BetterAuth`, `Supabase Auth`, `Spring Security`）
+- アクセス制御認可処理
 - メール配信、GAS実行、RAG応答、`Slack`, `Notion`など外部APIの利用
 
-### インフラ関連（PaaS型とDockerコンテナ型）
+### インフラ関連（基本PaaS型、学習用にDockerコンテナ型）
 
-- 開発用ローカルDB構築（`Docker compose`）
-- 本番用リモートDBデプロイ（`Supabase`, `NeonDB`, `Cloudflare D1`）
-- 本番用アプリデプロイ、リダイレクトや認証保護の設定（`Cloudflare Workers/Pages`, `Amplify`, `Vercel`）
+- 開発用ローカルDB（`Docker compose`）
+- 本番用リモートDBデプロイ（`Supabase`, `NeonDB`, `Cloudflare D1`、`Docker`コンテナ）
+- 本番用アプリデプロイ、プレビュー環境認証保護やリダイレクトの設定（`Cloudflare Workers`, `Amplify`, `Vercel`, `Docker`コンテナ）
 - 2度のPaaSインフラ移行（[職務経歴1-1](#筆者の担当業務詳細1-1)）
 - 各種DNSレコード設定（[職務経歴1-ex](#HP制作案件ごとにPaaSインフラとDNSの管理)）
 
 ### DevOpsなど他
 
-- Git運用戦略提案と合意形成、ブランチに紐づいたプレビュー環境構築
-- CI/CDパイプライン構築（`Github Actions`）
+- Git運用方針提案、合意形成
+- CI/CDパイプライン構築（主に個人学習。`Github Actions`）
 - リンター設定、コンフィグまわり
 - AIエージェント環境整備（`AGENTS.md`, MCPサーバーセットアップ）
 
@@ -119,9 +115,9 @@
 
 `ESLint`, `Prettier`, `Biome`, `Pnpm`, `Husky`, `Turborepo`, `Github Actions/Projects/Pages`, `Docker`, `Testcontainers`, `OpenAPI/SwaggerUI`, `GraphQL(Apollo/Codegen)`
 
-### PaaS / AWS
+### クラウドインフラ（PaaS / AWS）
 
-`Cloudflare Workers/Pages/D1/DNS/Access`, `Vercel`, `Netlify`,
+`Cloudflare Workers/Pages/D1/DNS/Access`, `Vercel`, `Netlify`, `Render`
 
 `AWS Amplify`, `IAM`, `EventBridge`, `Lambda`, `SES`, `S3`, `S3 Vectors`, `Bedrock KnowledgeBase`, `Bedrock Agents`
 
