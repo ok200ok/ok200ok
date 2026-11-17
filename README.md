@@ -353,7 +353,7 @@
 ##### 使用技術
 
 - **フロントエンドFE**：`TypeScript`, `React18`, `Next.js14 AppRouter`, `CSSModules`, `TailwindCSS`, `Shadcn/ui`, `TanStack Query/Table`, `ReactHookForm`, `Zod`
-- **バックエンドBE**：`Node.js(TS)`, `Next.js14(ServerActions)`, `Supabase ORM/Auth`, `GoogleMap GeocogingAPI`, `AmazonSES`, `GoogleAppScript`
+- **バックエンドBE**：`Node.js(TS)`, `Next.js14(ServerActions)`, `Supabase ORM/Auth`, `GoogleMap GeocodingAPI`, `AmazonSES`, `GoogleAppScript`
 - **インフラ / その他**：`Cloudflare Workers(アプリ本体)`, `OpenNext`, `Supabase DB(PostgreSQL)`, `MicroCMS`, `Figma`
 
 ##### チーム体制
